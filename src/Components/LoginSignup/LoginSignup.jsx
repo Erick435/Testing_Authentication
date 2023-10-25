@@ -35,7 +35,7 @@ const LoginSignup = () => {
             <input type="password" placeholder="Password" />
         </div>
         </div>
-        {action==="Sign Up"?<div></div>:<div className="forgot-password">Lost Password? <span>Click Here!</span></div>}
+        {action==="Sign Up"?<div></div>:<div className="forgot-password">Forget Password? <span>Click here!</span></div>}
         <div className="submit-container">
             <dic className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</dic>
             <dic className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Log in </dic>
