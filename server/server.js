@@ -165,7 +165,7 @@ async function createUser(username, email, hashedPassword) {
 
 
 const db = mysql.createConnection({
-    host: '127.0.0.1',
+    host: 'localhost',
     user: 'root',
     password: 'root',
     database: 'login_signup',
