@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top :200px;
+    width: 650px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+  color: #0f64ba;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Raleway Dots', sans-serif;
+}
+
+
+.underline{
+    width: 100px;
+    height: 6px;
+    background: #405aee;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+
+.forgot-password{
+    padding-left: 210px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+    
+  }
+
+  .forgot-password span{
+    color: #14089bac;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .submit-container{
+    display: flex;
+    gap: 20px;
+    margin: 60px auto;
+  }
+
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 59px;
+    color: #fff;
+    background: #104fba;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .gray{
+    background: #eaeaea;
+    color: #676767;
+  }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 210px; 
+  margin-right: 40px; 
+}
